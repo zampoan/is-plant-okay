@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "is-plant-okay-foot")(type "KiCad")(uri "${KIPRJMOD}/KICAD_PROJECT_LIBRARY/is-plant-okay-foot.pretty")(options "")(descr ""))
+)

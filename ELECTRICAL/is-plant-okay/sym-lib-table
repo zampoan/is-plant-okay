@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "is-plant-okay-lib")(type "KiCad")(uri "${KIPRJMOD}/KICAD_PROJECT_LIBRARY/is-plant-okay-lib.kicad_sym")(options "")(descr ""))
+)
