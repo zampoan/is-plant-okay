@@ -1,9 +1,8 @@
 # Is-Plant-Okay 🌱?
 ## Concept
 A solar-powered sensor node that uses a low-power camera and a tiny on-board ML model to detect early signs of plant disease. It will be mounted on a stake and its purpose is to continuously watch the same plant or section of crop bed. 
-It will periodically take a picture every 30 mins.
 
-Output: An image showing what areas of the plant is diseased. What the disease is. What plant it is. Confidene score of the plant. This information will be sent to a dashboard via LoRaWAN.
+It will periodically take a picture every 4 hours. When it sees trouble, it will send a compact alert packet over LoRa to a base station. The farmer will receive a notification and can inspect or treat the plant before disease spreads
 
 Dataset to be trained on: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
@@ -13,15 +12,25 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 - 🧠 MCU: Arduino Nano 33 BLE Sense Rev2 
 - 🔋 Lipo: 3.7 2000mAh
 - ☀️ Solar power cells: 0.5W Solar Panel 55x70
-- 📷 Camera: Himax CMOS imaging camera (HM01B0)
+- 📷 Camera: Himax CMOS imaging camera (HM0360-MWA-00FP963)
 - 🌡️ Temperature sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
 - 🌡️ Humidity sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
-- 🌡️ Soil moisture sensor: 
-- 🖵 Screen:
+- 🌡️ ~~Soil moisture sensor: (Premium option: RS485)~~
+- 🖵 Screen: 0.96 inch OLED 
+- 📡 LoRa: SX1278 RA-02 (Premium option:RYLR998)
 
 ## Software
 - KiCad 9.0: Schematic diagram drawing & PCB design
 - Fusion 360: Case design
+
+# BOM:
+| Hardware | Price ($USD) | Link |
+| :------: | :---: | :--: |
+| Arduino Nano 33 BLE Sense Rev 2 | 24.10 | https://www.digikey.com.au/en/products/detail/arduino/ABX00072/22478341?gclsrc=aw.ds&gad_source=1&gad_campaignid=22234799474&gbraid=0AAAAADrbLli1mxSf0QBCTxaTjv1b-k3Pd&gclid=CjwKCAjwuePGBhBZEiwAIGCVSy8whzDUQ_wo1qGUCEm0Dx-AgmW5Zc68ZqZuL7PP94tv6sZ8y9AFChoCTpcQAvD_BwE
+| 0.5W Solar Panel 55x70 | 6.07 | https://www.digikey.com.au/en/products/detail/seeed-technology-co-ltd/313070004/5488049?gad_source=1&gad_campaignid=22258692864&gbraid=0AAAAADrbLlhlBg2sAgWDGFOENqgOK8itr&gclid=CjwKCAjwuePGBhBZEiwAIGCVS1SN-ztdDNMpsNeNdLkv1kFB5a2T7XsfMUYFsP6d9YNnIU8SkSqs2BoCFH4QAvD_BwE&gclsrc=aw.ds
+| HM0360-MWA-00FP963 | 21.90 | https://www.digikey.com.au/en/products/detail/himax/HM0360-MWA-00FP963/14109819?gclsrc=aw.ds&gad_source=1&gad_campaignid=17413568847&gbraid=0AAAAADrbLlgyMTv95JMcJ6yXuerrPbv47&gclid=CjwKCAjwuePGBhBZEiwAIGCVS2BsgGUcC6Mo7IUe90jY_B7H7qjMXdXwqIchrUhshmXNRlemCx0_sxoCaBcQAvD_BwE
+| 0.96 inch OLED | 17.5 | https://www.digikey.com.au/en/products/detail/adafruit-industries-llc/326/5353680?_gl=1*ixuy3y*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwuePGBhBZEiwAIGCVS_6qNiL20pIWCjoUAzeDZMzQYdD6bu159td3h1SL1S8D12IetnRgOxoCkrQQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLli8NEJd-KX5f1ZJapeneWWe3
+| SX1278 RA-02 | 6.75 | https://www.digikey.com.au/en/products/detail/ai-thinker/RA-02/16688840?srsltid=AfmBOopHkL1KN6--sdUAq79mbmExiC83kx0xFzM4QrBp_Ixx35Tddggc
 
 ## Inspiration
 https://core-electronics.com.au/solar-lipo-charger-3-7v.html?gad_source=1&gad_campaignid=17417005429&gbraid=0AAAAADlEpP5hdt5SrEQd7QDKWpbK3QQSB&gclid=EAIaIQobChMI1JaFiPXgjwMVgyN7Bx0SeB8vEAQYASABEgJKWPD_BwE
