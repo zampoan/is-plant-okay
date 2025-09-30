@@ -15,7 +15,7 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 - 📷 Camera: Himax CMOS imaging camera (HM0360-MWA-00FP963)
 - 🌡️ Temperature sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
 - 🌡️ Humidity sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
-- 🌡️ ~~Soil moisture sensor: (Premium option: RS485)~~
+- ~~🌡️ Soil moisture sensor: (Premi um option: RS485)~~
 - 🖵 Screen: 0.96 inch OLED 
 - 📡 LoRa: SX1278 RA-02 (Premium option:RYLR998)
 
@@ -30,7 +30,7 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 | 0.5W Solar Panel 55x70 | 6.07 | https://www.digikey.com.au/en/products/detail/seeed-technology-co-ltd/313070004/5488049?gad_source=1&gad_campaignid=22258692864&gbraid=0AAAAADrbLlhlBg2sAgWDGFOENqgOK8itr&gclid=CjwKCAjwuePGBhBZEiwAIGCVS1SN-ztdDNMpsNeNdLkv1kFB5a2T7XsfMUYFsP6d9YNnIU8SkSqs2BoCFH4QAvD_BwE&gclsrc=aw.ds
 | HM0360-MWA-00FP963 | 21.90 | https://www.digikey.com.au/en/products/detail/himax/HM0360-MWA-00FP963/14109819?gclsrc=aw.ds&gad_source=1&gad_campaignid=17413568847&gbraid=0AAAAADrbLlgyMTv95JMcJ6yXuerrPbv47&gclid=CjwKCAjwuePGBhBZEiwAIGCVS2BsgGUcC6Mo7IUe90jY_B7H7qjMXdXwqIchrUhshmXNRlemCx0_sxoCaBcQAvD_BwE
 | 0.96 inch OLED | 17.5 | https://www.digikey.com.au/en/products/detail/adafruit-industries-llc/326/5353680?_gl=1*ixuy3y*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwuePGBhBZEiwAIGCVS_6qNiL20pIWCjoUAzeDZMzQYdD6bu159td3h1SL1S8D12IetnRgOxoCkrQQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLli8NEJd-KX5f1ZJapeneWWe3
-| SX1278 RA-02 | 6.75 | https://www.digikey.com.au/en/products/detail/ai-thinker/RA-02/16688840?srsltid=AfmBOopHkL1KN6--sdUAq79mbmExiC83kx0xFzM4QrBp_Ixx35Tddggc
+| RA-08H-915 | 8.57 | https://www.digikey.com.au/en/products/detail/ai-thinker/RA-08H-915/16707735?gad_source=1&gad_campaignid=22639496806&gbraid=0AAAAADrbLlhmY8xnCCqB41RYChARVbrWO&gclid=CjwKCAjwuePGBhBZEiwAIGCVS5VgTjF6Pva9VdO0K95FJU2QNHNCBSVff3Mbs73edDpxMqlk5Dqt8hoC8MUQAvD_BwE&gclsrc=aw.ds
 
 ## Inspiration
 https://core-electronics.com.au/solar-lipo-charger-3-7v.html?gad_source=1&gad_campaignid=17417005429&gbraid=0AAAAADlEpP5hdt5SrEQd7QDKWpbK3QQSB&gclid=EAIaIQobChMI1JaFiPXgjwMVgyN7Bx0SeB8vEAQYASABEgJKWPD_BwE
