@@ -34,3 +34,9 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 
 ## Inspiration
 https://core-electronics.com.au/solar-lipo-charger-3-7v.html?gad_source=1&gad_campaignid=17417005429&gbraid=0AAAAADlEpP5hdt5SrEQd7QDKWpbK3QQSB&gclid=EAIaIQobChMI1JaFiPXgjwMVgyN7Bx0SeB8vEAQYASABEgJKWPD_BwE
+
+## Model layout
+Uses a pretrained MobileNetv2 model as a teacher model. Tiny-LiteNet model uses six squeeze-and-excitation (SE) depthwise blocks to enhance feature representation, reduce compute cost and improve accuracy combined. The size of this model is 1.2Mb.
+
+Tiny-LiteNet architecture:
+![alt text](image.png)
