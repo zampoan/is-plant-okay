@@ -16,8 +16,10 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 - 🌡️ Temperature sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
 - 🌡️ Humidity sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
 - ~~🌡️ Soil moisture sensor: (Premi um option: RS485)~~
-- 🖵 Screen: 0.96 inch OLED 
+- 🖵 Screen: NHD-1.5-128128ASC3 1.5 inch OLED 
 - 📡 LoRa: SX1278 RA-02 (Premium option:RYLR998)
+- ~~💡 Light Sensor: TSL2591~~
+- ~~⚡ UV Sensor: VEML6075~~
 
 ## Software
 - KiCad 9.0: Schematic diagram drawing & PCB design
