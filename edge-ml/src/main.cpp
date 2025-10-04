@@ -1,13 +1,14 @@
-#include <Arduino_LSM9DS1.h>
+#include <Arduino.h>
 
 void setup() {
   // put your setup code here, to run once:
-  IMU.begin();
-  Serial.println("OK!")
-
+  pinMode(LED_BUILTIN, OUTPUT);
+  
 }
+
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  
 }
+
