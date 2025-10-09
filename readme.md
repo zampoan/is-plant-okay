@@ -21,30 +21,6 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 - ~~💡 Light Sensor: TSL2591~~
 - ~~⚡ UV Sensor: VEML6075~~
 
-## Pinout
-- A0: LORA_CS
-- A1: LORA_RESET
-- A2: 
-- A3: PCLK (cam)
-- A4: SIOD (cam)
-- A5: SIOC (cam)
-- A6: TFT_CS
-- A7: TFT_RESET
-- D0/TX: cam
-- D1/RX: cam
-- D2: (cam)
-- D3: (cam)
-- D4: (cam)
-- D5: (cam)
-- D6: (cam)
-- D7: (cam)
-- D8: VSYNC (cam)
-- D9: XCLK (cam)
-- D10: HREF (cam)
-- D11/MOSI: LORA_SPI, TPT_SPI
-- D12/MISO: LORA_SPI
-- D13/SCK: TFT_SPI,  LORA_SPI
-
 ## Software
 - KiCad 9.0: Schematic diagram drawing & PCB design
 - Fusion 360: Case design
@@ -61,7 +37,7 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 | (Lora alternative) WIO-E5 MINI DEV BRD STM32WLE5JC | 21.90 | 1 | https://www.digikey.com.au/en/products/detail/seeed-technology-co-ltd/113990939/13926228
 | 18650 BATTERY PROTECTION MODULE | 3.9 | 1 | https://www.digikey.com.au/en/products/detail/dfrobot/FIT0869/15997370?gad_source=1&gad_campaignid=22258692864&gbraid=0AAAAADrbLlg15LkEfC3epRZwz2bj5q-3L&gclid=Cj0KCQjw9JLHBhC-ARIsAK4PhcrrSuu6PmTF7blXYFuWj3jp-5aErfmPy3v33kaB2AZqo8hcHLbKMqoaAtIpEALw_wcB&gclsrc=aw.ds
 | BATT HOLDER 18650 2 CELL PC PIN | 5.16 | 1 | https://www.digikey.com.au/en/products/detail/mpd-memory-protection-devices/BK-18650-PC4/2330513
-
+| SPI RTC | 27.5 | 1 | https://www.digikey.com.au/en/products/detail/sparkfun-electronics/10160/5318743?gad_source=1&gad_campaignid=17413568847&gbraid=0AAAAADrbLlhQzfR05Cs2nWnXQWMDkBFCG&gclid=Cj0KCQjwl5jHBhDHARIsAB0YqjxafYtF9_N9fzqCNYOEMk2vtOCLYpYshzIofeoXUn1t9SEJgBJjOhwaAnBeEALw_wcB&gclsrc=aw.ds
 
 ## Inspiration
 https://blog.arduino.cc/2020/06/24/machine-vision-with-low-cost-camera-modules/
