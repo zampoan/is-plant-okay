@@ -2,7 +2,7 @@
 ## Concept
 A solar-powered sensor node that uses a low-power camera and a tiny on-board ML model to detect early signs of plant disease. It will be mounted on a stake and its purpose is to continuously watch the same plant or section of crop bed. 
 
-It will periodically take a picture every 4 hours. When it sees trouble, it will send a compact alert packet over LoRa to a base station. The farmer will receive a notification and can inspect or treat the plant before disease spreads
+It will periodically take a picture every 4 hours. When it sees trouble, and will send a compact alert packet over LoRa to a base station. The farmer will receive a notification and can inspect or treat the plant before disease spreads.
 
 Dataset to be trained on: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
@@ -10,13 +10,13 @@ ML model: https://www.nature.com/articles/s41598-025-06452-5
 
 ## Hardware
 - 🧠 MCU: Arduino Nano 33 BLE Sense Rev2 
-- 🔋 Lipo: 7.4 2000mAh
+- 🔋 LiIon: 7.4 2000mAh
 - ☀️ Solar power cells: 0.5W Solar Panel 55x70
-- 📷 Camera: Himax CMOS imaging camera (HM0360-MWA-00FP963)
+- 📷 Camera: CAMERA-OV7670
 - 🌡️ Temperature sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
 - 🌡️ Humidity sensor: Arduino Nano 33 BLE Sense Rev2 (onboard HS3003)
 - ~~🌡️ Soil moisture sensor: (Premi um option: RS485)~~
-- 🖵 Screen: NHD-1.5-128128ASC3 1.5 inch OLED 
+- 🖵 Screen: GRAPHIC DISPLAY TFT RGB 0.96"
 - 📡 LoRa: SX1278 RA-02 (Premium option:RYLR998)
 - ~~💡 Light Sensor: TSL2591~~
 - ~~⚡ UV Sensor: VEML6075~~
@@ -44,8 +44,25 @@ https://blog.arduino.cc/2020/06/24/machine-vision-with-low-cost-camera-modules/
 https://cdn-learn.adafruit.com/downloads/pdf/adafruit-mini-tft-0-dot-96-inch-180x60-breakout.pdf
 https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
 
-## Model layout
-The model that will be used is based of the paper: [AI and IoT-powered edge device optimized for crop pest and disease detection](https://www.nature.com/articles/s41598-025-06452-5). It is called Tiny-LiteNet, and it uses a pretrained MobileNetv2 model as a teacher model. Tiny-LiteNet utilises six squeeze-and-excitation (SE) depthwise blocks to enhance feature representation, reduce compute cost and improve accuracy combined. The size of this model is 1.2Mb.
+# Project Timeline
+## Stage 0: Project Conceptualization
+Stage 0 focuses on identifying the key skills to develop for this project. My goal was to deepen my understanding of wireless communication and explore how to integrate machine learning into embedded devices. I was particularly interested in how these technologies could support farmers and forest rangers in monitoring crops and plants across large, diverse environment. My goal was to make it as cheap as possible and require little human interaction once placed.
+
+## Stage 1a: Development board stage
+Stage 1a involves selecting different components to interface with each other. The most important element was the microcontroller, and I choose the Arduino Nano 33 BLE Sense V2 for its built in sensor capabilities, community support and access to TF-lite as an edge-ml solution.
+
+The next was selecting a camera, I needed a camera that I could use off the shelf quickly for developing. Originally HM0360-MWA-00FP963 was selected, but I found it difficult to find a dev board for it. So the OV7670 was selected instead.
+
+Similiar to the camera, SX1278 RA-02 module was selected because a dev board was available, and the DS3234 was chosen because SPI was the common protocol that is being used.
+
+## Stage 1b: Developing the model
+The model that is being used is based of the paper: [AI and IoT-powered edge device optimized for crop pest and disease detection](https://www.nature.com/articles/s41598-025-06452-5) and is called Tiny-LiteNet.  this was chosen because of its practical use case and identifiable metrics used to train and test the model. 
+
+The model is made from scratch and is trained on a different dataset and uses a pretrained MobileNetv2 model as a teacher model. Tiny-LiteNet utilises six squeeze-and-excitation (SE) depthwise blocks to enhance feature representation, reduce compute cost and improve accuracy combined. The size of this model is 1.2Mb.
 
 Tiny-LiteNet architecture:
-![alt text](image.png)
+![alt text](ml-architecture-image.png)
+
+## Stage 2a: PCB design
+
+## Stage 2b: CAD design
