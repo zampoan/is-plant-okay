@@ -6,6 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 137.16 50.8)
+		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42c3084d-a57f-417f-a653-1ccbbbf331f7")
+		(property "Sheetname" "Sensors"
+			(at 137.16 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 137.16 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 74.93 50.8)
 		(size 24.13 20.32)
 		(exclude_from_sim no)

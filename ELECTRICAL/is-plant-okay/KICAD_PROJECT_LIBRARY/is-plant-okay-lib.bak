@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "317990829_SEE"
+		(property "Footprint" "is-plant-okay-foot:lora_317990829_SEE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "317990829"
+		(property "Datasheet" "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF TXRX MOD ISM<1GHZ SMD LORA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54,12 +54,31 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "Mfg Part #" "317990829"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Type" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "28-SMD Module"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "317990829"

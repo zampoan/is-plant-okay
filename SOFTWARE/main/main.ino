@@ -16,9 +16,9 @@
 #define LORA_CS A1
 #define LORA_RST A2
 #define TFT_CS A3
-#define RTC_CS A4
-#define CAM_SIOD A5
-#define CAM_SIOC A6
+#define CAM_SIOD A4
+#define CAM_SIOC A5
+#define RTC_CS A6
 #define CAM_PCLK A7
 
 void setup() {

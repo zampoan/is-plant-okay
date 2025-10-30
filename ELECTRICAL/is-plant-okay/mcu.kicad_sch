@@ -630,6 +630,634 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "is-plant-okay-lib:OV7670"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "OV7670"
+				(at 25.4 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OV7670:OV7670"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Not Specified"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Cameras & Camera Modules"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/OV7670/CIF/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "OV7670"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/OV7670/CIF/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "OV7670_0_0"
+				(rectangle
+					(start 0 0)
+					(end 22.86 7.62)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 10.16 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 12.7 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 5.08) (xy 15.24 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 5.08) (xy 17.78 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 17.78 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 5.08) (xy 20.32 6.35)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 2.54) (xy 20.32 1.27)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "HREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "VSYNC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "PCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 11.43 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -3.81 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -732,6 +1360,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 76.2 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47a6af06-0c45-4659-95fa-7a2564a741f3)
+	)
+	(text "Camera Module"
+		(exclude_from_sim no)
+		(at 41.656 15.748 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "cdbd2692-0129-49e9-94c8-bccb3a7eedfc")
+	)
 	(junction
 		(at 138.43 68.58)
 		(diameter 0)
@@ -754,11 +1404,21 @@
 	)
 	(no_connect
 		(at 140.97 73.66)
-		(uuid "8a5ad0b8-b573-4108-860f-07a1ec73a6f5")
+		(uuid "dcc63164-f21e-4fa5-9fa6-9aef32aea856")
 	)
 	(no_connect
 		(at 148.59 93.98)
 		(uuid "f9de1e00-1ce1-4022-a9b9-556bb023d4a0")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073c52c0-6315-48b0-858a-d1a6d98e5fb7")
 	)
 	(wire
 		(pts
@@ -792,6 +1452,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 30.48) (xy 63.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201a679b-d925-45a1-b51b-c0442d9f436f")
+	)
+	(wire
+		(pts
 			(xy 110.49 104.14) (xy 123.19 104.14)
 		)
 		(stroke
@@ -819,6 +1489,16 @@
 			(type default)
 		)
 		(uuid "3458a994-47dd-496a-84fd-ffdab8fb92bc")
+	)
+	(wire
+		(pts
+			(xy 20.32 33.02) (xy 34.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3767605f-18bb-42fa-806b-5c87cdd0c517")
 	)
 	(wire
 		(pts
@@ -912,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 45.72) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634f3b9d-a65b-43a0-972f-f651fd987f75")
+	)
+	(wire
+		(pts
 			(xy 121.92 67.31) (xy 133.35 67.31)
 		)
 		(stroke
@@ -929,6 +1619,16 @@
 			(type default)
 		)
 		(uuid "6964cea4-5301-4139-a3b1-33eb2b9bb92a")
+	)
+	(wire
+		(pts
+			(xy 20.32 27.94) (xy 34.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe84049-f738-4dd2-bf14-a60ede2009a3")
 	)
 	(wire
 		(pts
@@ -952,6 +1652,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76092e0d-fbb0-4512-8422-09a8bd6ca022")
+	)
+	(wire
+		(pts
 			(xy 148.59 109.22) (xy 160.02 109.22)
 		)
 		(stroke
@@ -969,6 +1679,36 @@
 			(type default)
 		)
 		(uuid "7a5142f1-c427-4432-b658-e9b172e26518")
+	)
+	(wire
+		(pts
+			(xy 49.53 40.64) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96767214-8a21-4253-a0a6-09752d1e5f48")
+	)
+	(wire
+		(pts
+			(xy 20.32 35.56) (xy 34.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e65e9b-84a8-4cf8-b477-e5021338c465")
+	)
+	(wire
+		(pts
+			(xy 20.32 45.72) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09fe613-f979-4a9b-9395-b23e32f965a1")
 	)
 	(wire
 		(pts
@@ -1022,7 +1762,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 138.43 43.18)
+			(xy 49.53 27.94) (xy 67.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c44164-5a49-48e8-948e-cf9031450538")
+	)
+	(wire
+		(pts
+			(xy 138.43 43.18) (xy 138.43 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1042,6 +1792,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 35.56) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f17169-6684-4c97-9669-c1d7665dc895")
+	)
+	(wire
+		(pts
 			(xy 138.43 43.18) (xy 151.13 43.18)
 		)
 		(stroke
@@ -1052,6 +1812,26 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 40.64) (xy 34.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdaa4ae-e87d-4c5f-a3ba-48dcc2ac5342")
+	)
+	(wire
+		(pts
+			(xy 20.32 30.48) (xy 34.29 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07aec54-8406-45da-b31c-e3fdbf232aa4")
+	)
+	(wire
+		(pts
 			(xy 110.49 86.36) (xy 123.19 86.36)
 		)
 		(stroke
@@ -1059,6 +1839,16 @@
 			(type default)
 		)
 		(uuid "d8e27bd9-dd38-4cbb-a20d-1d5c611b368a")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa9226d-652c-43e9-80c7-c7154bb8a1f9")
 	)
 	(wire
 		(pts
@@ -1120,6 +1910,36 @@
 		)
 		(uuid "f66ddf5c-2b84-46e5-ac60-be32e4911bce")
 	)
+	(wire
+		(pts
+			(xy 20.32 43.18) (xy 34.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb075f7f-0c38-4983-95b0-c68b29cf36a7")
+	)
+	(wire
+		(pts
+			(xy 20.32 38.1) (xy 34.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc475396-7904-474c-8104-ea7613b911be")
+	)
+	(label "CAM_D4"
+		(at 63.5 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06389e96-a16a-4a64-a18e-106c39167e9a")
+	)
 	(label "CAM_PCLK"
 		(at 160.02 116.84 180)
 		(effects
@@ -1130,13 +1950,43 @@
 		)
 		(uuid "0e6ed532-cc59-4d76-bf83-17986d33b8a4")
 	)
-	(label "LORA_3.3"
-		(at 142.24 55.88 0)
+	(label "CAM_D7"
+		(at 20.32 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "1359f70e-b0db-4400-8505-17b5771dd006")
+	)
+	(label "CAM_SIOD"
+		(at 160.02 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14525df6-249d-468a-bb67-d0232fb102a1")
+	)
+	(label "CAM_XCLK"
+		(at 63.5 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1576c46d-0a7e-4327-a788-0a752bffc463")
+	)
+	(label "LORA_3.3V"
+		(at 151.13 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "15fb9a9d-44ec-4bb8-bb60-e1b33b6ed93d")
 	)
@@ -1150,15 +2000,15 @@
 		)
 		(uuid "1eeee6ca-f082-4365-89c6-ba04aadd80bc")
 	)
-	(label "CAM_SIOC"
-		(at 160.02 114.3 180)
+	(label "CAM_D3"
+		(at 20.32 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "29736b83-0540-4c74-9a27-595ab7044a08")
+		(uuid "256d5cea-2c55-474e-a31c-c89802052fa8")
 	)
 	(label "CAM_D0"
 		(at 110.49 83.82 0)
@@ -1169,6 +2019,16 @@
 			(justify left bottom)
 		)
 		(uuid "38e3509f-3399-4a0a-a5d3-7331cca6865f")
+	)
+	(label "CAM_D6"
+		(at 63.5 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41d6001d-3de7-4226-9453-68af0b936810")
 	)
 	(label "SCK"
 		(at 110.49 116.84 0)
@@ -1190,15 +2050,15 @@
 		)
 		(uuid "4a446f19-76fc-4815-bb07-dac967304c11")
 	)
-	(label "CAM_SIOD"
-		(at 160.02 111.76 180)
+	(label "RTC_CS"
+		(at 160.02 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5342f18b-3ba7-4eac-afe2-e26d2f10e4cc")
+		(uuid "51be64cf-1fe2-4408-b90b-f2fd560d329e")
 	)
 	(label "MOSI"
 		(at 110.49 111.76 0)
@@ -1240,6 +2100,16 @@
 		)
 		(uuid "76ded4f8-9959-4d18-a741-283ba5369c5b")
 	)
+	(label "CAM_HREF"
+		(at 63.5 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e9ef23f-5640-4ba2-9978-f3f392d15f0d")
+	)
 	(label "CAM_XCLK"
 		(at 110.49 106.68 0)
 		(effects
@@ -1250,15 +2120,75 @@
 		)
 		(uuid "7f248c26-a411-45c5-b7cc-9336b4627205")
 	)
-	(label "TFT_3.3"
-		(at 142.24 43.18 0)
+	(label "CAM_3.0V"
+		(at 20.32 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
+		(uuid "82e768ff-b83b-4aca-8604-377ad2045a20")
+	)
+	(label "CAM_SIOC"
+		(at 160.02 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a9a1c88-91c4-469f-9c7e-9e557e26a6df")
+	)
+	(label "CAM_D0"
+		(at 63.5 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b3ae09d-477b-4b3c-84c5-e0aae6094c54")
+	)
+	(label "CAM_D5"
+		(at 20.32 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91758b86-22e9-4725-b680-483356289c11")
+	)
+	(label "TFT_3.3V"
+		(at 151.13 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
 		(uuid "a06be477-6951-4755-98ff-0feab180c214")
+	)
+	(label "CAM_PCLK"
+		(at 20.32 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27fc13e-aaeb-42a5-9dde-54919239849f")
+	)
+	(label "CAM_SIOC"
+		(at 20.32 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7e3236b-4f0e-4d1c-920f-5187cc6e76bd")
 	)
 	(label "TFT_CS"
 		(at 160.02 106.68 180)
@@ -1270,25 +2200,45 @@
 		)
 		(uuid "ac06a163-0e30-4058-9be0-319ab44e3718")
 	)
-	(label "TFT_RST"
-		(at 160.02 109.22 180)
+	(label "CAM_D2"
+		(at 63.5 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b41a4093-0d48-4d4b-940d-222388e4dec3")
+		(uuid "af88fdee-f0f7-4298-b8f2-f09caafb989b")
 	)
-	(label "CAM_3.3"
-		(at 142.24 68.58 0)
+	(label "BUTTON_PIN"
+		(at 160.02 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b55b7ad6-bff6-4ba6-b7d7-02cc60076ff7")
+	)
+	(label "CAM_3.0V"
+		(at 151.13 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba4272d0-7a5f-4599-a717-8bc89d22f13d")
+	)
+	(label "CAM_D1"
+		(at 20.32 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ba4272d0-7a5f-4599-a717-8bc89d22f13d")
+		(uuid "bb76708b-6bcf-4326-bf4c-738ffecea45d")
 	)
 	(label "CAM_D6"
 		(at 110.49 99.06 0)
@@ -1319,6 +2269,16 @@
 			(justify left bottom)
 		)
 		(uuid "c96c3df9-61c7-40d0-9deb-22d3787ad8d6")
+	)
+	(label "CAM_VSYNC"
+		(at 20.32 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb40fdc2-9e11-4ec6-9558-2633ff9bdece")
 	)
 	(label "CAM_D7"
 		(at 110.49 101.6 0)
@@ -1359,6 +2319,16 @@
 			(justify left bottom)
 		)
 		(uuid "f88793ee-bd66-4836-b668-02410527670f")
+	)
+	(label "CAM_SIOD"
+		(at 63.5 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb26d409-d9d2-4199-b6af-f0f19e3c8058")
 	)
 	(global_label "8.4V"
 		(shape input)
@@ -1450,6 +2420,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 67.31 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3171be7e-aff7-4e98-9f8d-39187aba7e1d")
+		(property "Reference" "#PWR020"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b704690-e71b-4ba2-a499-54045aaa5be9")
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/ee1046de-6697-4ab5-acee-a324cbe7652e"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 134.62 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1509,6 +2545,197 @@
 			(project ""
 				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/ee1046de-6697-4ab5-acee-a324cbe7652e"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "is-plant-okay-lib:OV7670")
+		(at 38.1 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0e5ef1-d31b-408b-b3f3-0c69f34494f5")
+		(property "Reference" "U1"
+			(at 41.91 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OV7670"
+			(at 41.91 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OV7670:OV7670"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Not Specified"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Cameras & Camera Modules"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OV7670/CIF/view-part/?ref=snap"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "OV7670"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/OV7670/CIF/view-part/?ref=eda"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "D6"
+			(uuid "aa671002-b498-484b-8862-8e2b2677019a")
+		)
+		(pin "D0"
+			(uuid "6f0b1e56-6a11-4495-b704-1a07c4c0a628")
+		)
+		(pin "D1"
+			(uuid "76f1ae70-6117-4bca-8d0c-015740628980")
+		)
+		(pin "SDA"
+			(uuid "7a470691-afc6-4cfc-83f6-4e83fb7895bc")
+		)
+		(pin "VSYNC"
+			(uuid "11924d74-6e36-4277-a4c6-a940850ebdef")
+		)
+		(pin "HREF"
+			(uuid "7a980903-5357-4ad0-bf03-8ff819ca7d57")
+		)
+		(pin "VCC"
+			(uuid "58af0ea0-7a06-4ee9-a492-81a317c24a37")
+		)
+		(pin "SCL"
+			(uuid "106560f5-7f42-4da5-aa04-43e9dc26ded8")
+		)
+		(pin "GND"
+			(uuid "0657a687-882a-4494-8add-195bddd9fccf")
+		)
+		(pin "D4"
+			(uuid "99a4a431-50f3-46e6-bb30-cefe64f87f32")
+		)
+		(pin "D3"
+			(uuid "0bc258b7-219d-499d-8218-5a4fd453da5f")
+		)
+		(pin "D2"
+			(uuid "0a30d673-76a8-442a-a95f-da17a90b807b")
+		)
+		(pin "D5"
+			(uuid "6cd8dc6c-1a0a-4368-a685-37c91cbb20c4")
+		)
+		(pin "PCLK"
+			(uuid "32224172-5b44-4ffe-a48b-c8d886265e7b")
+		)
+		(pin "XCLK"
+			(uuid "11f5895c-bf3d-4696-87e1-bcbc69b06912")
+		)
+		(pin "D7"
+			(uuid "1e793b55-f18e-4289-b3fc-00bada58a62f")
+		)
+		(instances
+			(project ""
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/ee1046de-6697-4ab5-acee-a324cbe7652e"
+					(reference "U1")
 					(unit 1)
 				)
 			)
