@@ -49,7 +49,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 50.8)
+		(at 101.6 50.8)
 		(size 24.13 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65,7 +65,7 @@
 		)
 		(uuid "8b114bf4-244b-4f38-bf43-9ab78bd7e40c")
 		(property "Sheetname" "Power"
-			(at 74.93 50.0884 0)
+			(at 101.6 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +74,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 74.93 71.7046 0)
+			(at 101.6 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 50.8)
+		(at 19.05 19.05)
 		(size 22.86 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -107,8 +107,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ee1046de-6697-4ab5-acee-a324cbe7652e")
-		(property "Sheetname" "MCU"
-			(at 106.68 50.0884 0)
+		(property "Sheetname" "breadboarding"
+			(at 19.05 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,7 +117,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 106.68 72.9746 0)
+			(at 19.05 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
