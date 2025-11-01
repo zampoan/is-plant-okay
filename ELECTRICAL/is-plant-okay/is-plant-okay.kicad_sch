@@ -6,7 +6,50 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 74.93 50.8)
+		(at 137.16 50.8)
+		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42c3084d-a57f-417f-a653-1ccbbbf331f7")
+		(property "Sheetname" "Sensors"
+			(at 137.16 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 137.16 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
 		(size 24.13 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +65,7 @@
 		)
 		(uuid "8b114bf4-244b-4f38-bf43-9ab78bd7e40c")
 		(property "Sheetname" "Power"
-			(at 74.93 50.0884 0)
+			(at 101.6 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +74,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 74.93 71.7046 0)
+			(at 101.6 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 50.8)
+		(at 19.05 19.05)
 		(size 22.86 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,8 +107,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ee1046de-6697-4ab5-acee-a324cbe7652e")
-		(property "Sheetname" "MCU"
-			(at 106.68 50.0884 0)
+		(property "Sheetname" "breadboarding"
+			(at 19.05 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +117,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 106.68 72.9746 0)
+			(at 19.05 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

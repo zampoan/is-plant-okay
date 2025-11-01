@@ -53,10 +53,10 @@ Stage 1a involves selecting different components to interface with each other. T
 
 The next was selecting a camera, I needed a camera that I could use off the shelf quickly for developing. Originally HM0360-MWA-00FP963 was selected, but I found it difficult to find a dev board for it. So the OV7670 was selected instead.
 
-Similiar to the camera, SX1278 RA-02 module was selected because a dev board was available, and the DS3234 was chosen because SPI was the common protocol that is being used.
+Similiar to the camera, SX1278 RA-02 module was selected because a dev board was available, and the DS3234 was chosen because SPI is the common protocol that is being used.
 
 ## Stage 1b: Developing the model
-The model that is being used is based of the paper: [AI and IoT-powered edge device optimized for crop pest and disease detection](https://www.nature.com/articles/s41598-025-06452-5) and is called Tiny-LiteNet.  this was chosen because of its practical use case and identifiable metrics used to train and test the model. 
+The model that is being used is based of the paper: [AI and IoT-powered edge device optimized for crop pest and disease detection](https://www.nature.com/articles/s41598-025-06452-5) and is called Tiny-LiteNet. It was chosen because of its use case matched  and identifiable metrics used to train and test the model. 
 
 The model is made from scratch and is trained on a different dataset and uses a pretrained MobileNetv2 model as a teacher model. Tiny-LiteNet utilises six squeeze-and-excitation (SE) depthwise blocks to enhance feature representation, reduce compute cost and improve accuracy combined. The size of this model is 1.2Mb.
 
@@ -64,5 +64,6 @@ Tiny-LiteNet architecture:
 ![alt text](ml-architecture-image.png)
 
 ## Stage 2a: PCB design
+
 
 ## Stage 2b: CAD design
