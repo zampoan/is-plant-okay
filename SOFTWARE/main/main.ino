@@ -22,9 +22,41 @@
 #define CAM_PCLK A7
 
 void setup() {
-  
+    Serial.begin(9600);
+    SPI.begin();
+
+    // Camera Pins
+    pinMode(CAM_SIOD, INPUT); // Serial ubterface data I/o
+    pinMode(CAM_SIOC, INPUT); // Serial clock
+    pinMode(CAM_D0, OUTPUT); 
+    pinMode(CAM_D1, OUTPUT);
+    pinMode(CAM_D2, OUTPUT);
+    pinMode(CAM_D3, OUTPUT);
+    pinMode(CAM_D4, OUTPUT);
+    pinMode(CAM_D5, OUTPUT);
+    pinMode(CAM_D6, OUTPUT);
+    pinMode(CAM_D7, OUTPUT);
+    pinMode(CAM_VSYNC, OUTPUT); // vertical sync output
+    pinMODE(CAM_HREF, OUTPUT); // href output
+    pinMode(CAM_PCLK, OUTPUT); // pixel clock output
+    pinMode(CAM_XCLK, OUTPUT); // system clock output
+
+    // Button Pins
+    pinMode(BUTTON_PIN, INPUT_PULLUP);
+
+    // LoRa Module Pins
+    pinMode(LORA_CS, OUTPUT);
+    pinMode(LORA_RST, OUTPUT);
+
+    // TFT Screen Pins
+    pinMode(TFT_CS, OUTPUT);
+
+    // RTC Pins
+    pinMode(RTC_CS, OUTPUT);
 }
 
 void loop(){
-
+    if (digitalRead(BUTTON_PIN) == LOW){
+        Serial.println("Button Pressed");
+    }
 }

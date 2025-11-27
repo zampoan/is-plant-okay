@@ -2607,6 +2607,12 @@
 		(uuid "a8b5fd07-cdb4-4f71-a127-ce9f508c3b5e")
 	)
 	(junction
+		(at 157.48 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b455d989-d3a5-4020-b830-4023d3c015a3")
+	)
+	(junction
 		(at 104.14 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2635,6 +2641,10 @@
 	(no_connect
 		(at 33.02 143.51)
 		(uuid "29899e37-2eb1-408e-a0dd-3c01cdafa176")
+	)
+	(no_connect
+		(at 160.02 83.82)
+		(uuid "350316af-9c16-4d74-8a8f-0c3826661bb4")
 	)
 	(no_connect
 		(at 26.67 90.17)
@@ -2820,6 +2830,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 72.39) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23878167-af0b-4ed8-949c-7a0b0a493f30")
+	)
+	(wire
+		(pts
 			(xy 55.88 133.35) (xy 68.58 133.35)
 		)
 		(stroke
@@ -2970,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 157.48 78.74)
+			(xy 157.48 66.04) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3017,16 +3037,6 @@
 			(type default)
 		)
 		(uuid "59456744-f7e1-4e24-aecf-2f7b09f28407")
-	)
-	(wire
-		(pts
-			(xy 160.02 83.82) (xy 168.91 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c4488db-ebcd-42de-871d-6ab1cacd1abd")
 	)
 	(wire
 		(pts
@@ -3227,6 +3237,16 @@
 			(type default)
 		)
 		(uuid "8f461d42-ec1c-46e4-bce9-5561afeb3cda")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920bb5f5-5b60-4350-929a-bb3a1fc374ab")
 	)
 	(wire
 		(pts
@@ -3778,6 +3798,16 @@
 		)
 		(uuid "4a446f19-76fc-4815-bb07-dac967304c11")
 	)
+	(label "TFT_3.3V"
+		(at 170.18 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b2588bf-8d0d-4259-9f45-e7fa512cb53a")
+	)
 	(label "RTC_MOSI"
 		(at 63.5 185.42 180)
 		(effects
@@ -3857,16 +3887,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e9ef23f-5640-4ba2-9978-f3f392d15f0d")
-	)
-	(label "TFT_5.0V"
-		(at 168.91 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ebd8da4-1350-451c-a63e-b96e57d178f5")
 	)
 	(label "CAM_XCLK"
 		(at 129.54 116.84 0)
