@@ -9,7 +9,7 @@
 */
 #include <SPI.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_ST7735.h>
+#include <Adafruit_ST7735.h> // using 0.96" 160x80 tft display
 #include <Arduino_HS300x.h>
 
 
@@ -25,7 +25,7 @@
 #define CAM_VSYNC D8
 #define CAM_XCLK D9 
 #define CAM_HREF D10
-#define BUTTON_PIN A0
+#define TFT_DC A0
 #define LORA_CS A1
 #define LORA_RST A2
 #define TFT_CS A3
@@ -45,7 +45,7 @@
 #endif
 
 // tft screen
-Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, UNUSED_PIN, UNUSED_PIN);
+Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC);
 
 // temperature and humidity sensor
 float old_temp = 0;
@@ -67,9 +67,18 @@ void showTemperatureHumidity(void){
     }
 }
 
+void drawText(char *text, uint16_t textColor, uint8_t xCursor, uint8_t yCursor){
+    tft.setRotation(1);
+    tft.setCursor(xCursor, yCursor);
+    tft.setTextColor(textColor, ST7735_BLACK);
+    tft.setTextWrap(true);
+    tft.print(text);
+}
+
 void setup() {
     Serial.begin(11600);
     SPI.begin();
+
     if (!HS300x.begin()){
         DEBUG_PRINTLN("Failed to init HS300x!");
     } 
@@ -90,8 +99,6 @@ void setup() {
     pinMode(CAM_PCLK, OUTPUT); // pixel clock output
     pinMode(CAM_XCLK, OUTPUT); // system clock output
 
-    // Button Pins
-    pinMode(BUTTON_PIN, INPUT_PULLUP);
 
     // LoRa Module Pins
     pinMode(LORA_CS, OUTPUT);
@@ -100,15 +107,15 @@ void setup() {
     // TFT Screen Pins
     pinMode(TFT_CS, OUTPUT);
     tft.initR(INITR_MINI160x80);
+    tft.fillScreen(ST7735_BLACK);
 
     // RTC Pins
     pinMode(RTC_CS, OUTPUT);
+
 }
 
 void loop(){
-    showTemperatureHumidity();
-
-    if (digitalRead(BUTTON_PIN) == LOW){
-        Serial.println("Button Pressed");
-    }
+    drawText("Hello World!", ST7735_WHITE, 0, 50);
+    delay(1000);
+    // showTemperatureHumidity();
 }
