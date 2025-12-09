@@ -5,13 +5,15 @@
         - arduino_hs300x
         - arduino_bmi270_bmm150
         - arduino_LPS22HB
+        - ds3231
 
 */
 #include <SPI.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7735.h> // using 0.96" 160x80 tft display
 #include <Arduino_HS300x.h>
-
+#include <DS3231.h>
+#include <time.h>
 
 // Pinouts
 #define CAM_D0 D0
@@ -40,12 +42,16 @@
     #define DEBUG_PRINT(x) Serial.print(x)
     #define DEBUG_PRINTLN(x) Serial.println(x) 
 #else
-    #define DEBUG_PRINT(x) Serial.print(x)
-    #define DEBUG_PRINTLN(x) Serial.println(x)
+    #define DEBUG_PRINT(x) 
+    #define DEBUG_PRINTLN(x) 
 #endif
 
 // tft screen
-Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC);
+Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, UNUSED_PIN);
+
+// DS3231 rtc
+// RTClib myRTC;
+// DateTime now = myRTC.now();
 
 // temperature and humidity sensor
 float old_temp = 0;
@@ -112,10 +118,18 @@ void setup() {
     // RTC Pins
     pinMode(RTC_CS, OUTPUT);
 
+    delay(3000);
+    DEBUG_PRINTLN("Finished Setup...");
 }
 
 void loop(){
-    drawText("Hello World!", ST7735_WHITE, 0, 50);
+    Serial.println("1");
+    //drawText("Hello World!", ST7735_WHITE, 0, 50);
     delay(1000);
-    // showTemperatureHumidity();
+    // // showTemperatureHumidity();
+    Serial.println("2");
+
+    // Serial.println(now.year(), DEC);
+    Serial.println(3);
+    // Serial.println("WHY ");
 }
