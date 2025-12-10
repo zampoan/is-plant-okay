@@ -424,6 +424,26 @@
     [
       "42c3084d-a57f-417f-a653-1ccbbbf331f7",
       "Sensors"
+    ],
+    [
+      "f0d7ceea-66a9-4232-906e-fc203451d9a2",
+      "MCU_NINA_B306"
+    ],
+    [
+      "13d330f5-3cda-4311-90ba-9a1d771a2e1f",
+      "DISPLAY_TFT"
+    ],
+    [
+      "09e2268a-4f06-4551-b501-1a158603660c",
+      "RTC_DS3234"
+    ],
+    [
+      "620be07c-2bce-4383-9b50-1c824f90bb5c",
+      "CAMERA_0V7670"
+    ],
+    [
+      "08e21840-3bd7-4f63-bbb0-33a00ebd42b3",
+      "LoRa_RADIO"
     ]
   ],
   "text_variables": {}
