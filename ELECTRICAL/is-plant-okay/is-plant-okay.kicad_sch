@@ -6,6 +6,134 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 130.81 111.76)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08e21840-3bd7-4f63-bbb0-33a00ebd42b3")
+		(property "Sheetname" "LoRa_RADIO"
+			(at 130.81 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRA_RADIO.kicad_sch"
+			(at 130.81 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 111.76)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09e2268a-4f06-4551-b501-1a158603660c")
+		(property "Sheetname" "RTC_DS3234"
+			(at 73.66 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC_DS3234.kicad_sch"
+			(at 73.66 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 111.76)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13d330f5-3cda-4311-90ba-9a1d771a2e1f")
+		(property "Sheetname" "DISPLAY_TFT"
+			(at 44.45 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DISPLAY_TFT.kicad_sch"
+			(at 44.45 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 137.16 50.8)
 		(size 25.4 21.59)
 		(exclude_from_sim no)
@@ -44,6 +172,92 @@
 			(project "is-plant-okay"
 				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 111.76)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "620be07c-2bce-4383-9b50-1c824f90bb5c")
+		(property "Sheetname" "CAMERA_0V7670"
+			(at 101.6 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAMERA_0V7670.kicad_sch"
+			(at 101.6 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 111.76)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67cc056f-c5be-4963-a238-c27ae3faab2e")
+		(property "Sheetname" "USB_C_3.3V"
+			(at 161.29 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C_3-3V.kicad_sch"
+			(at 161.29 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "10")
 				)
 			)
 		)
@@ -130,6 +344,49 @@
 			(project "is-plant-okay"
 				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 111.76)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0d7ceea-66a9-4232-906e-fc203451d9a2")
+		(property "Sheetname" "MCU_NINA_B306"
+			(at 17.78 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_NINA_B306.kicad_sch"
+			(at 17.78 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "5")
 				)
 			)
 		)
