@@ -220,6 +220,49 @@
 		)
 	)
 	(sheet
+		(at 161.29 111.76)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67cc056f-c5be-4963-a238-c27ae3faab2e")
+		(property "Sheetname" "USB_C_3.3V"
+			(at 161.29 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C_3-3V.kicad_sch"
+			(at 161.29 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 50.8)
 		(size 24.13 20.32)
 		(exclude_from_sim no)

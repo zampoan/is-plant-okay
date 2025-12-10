@@ -1,4 +1,4 @@
-25620005886260861
+25621771255253298
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102661,6 +102661,13 @@ QFN50P350X350X100-17N
 0
 17
 17
+is-plant-okay-foot
+QFN65P600X600X100-29N
+
+
+0
+29
+29
 is-plant-okay-foot
 XCVR_NINA-B306-00B
 

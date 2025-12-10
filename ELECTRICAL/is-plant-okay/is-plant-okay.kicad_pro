@@ -444,6 +444,10 @@
     [
       "08e21840-3bd7-4f63-bbb0-33a00ebd42b3",
       "LoRa_RADIO"
+    ],
+    [
+      "67cc056f-c5be-4963-a238-c27ae3faab2e",
+      "USB_C_3.3V"
     ]
   ],
   "text_variables": {}
