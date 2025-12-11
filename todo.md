@@ -16,5 +16,9 @@ Find out if below is possible:
 | Want full control / Zephyr / SDK | Use Nordic’s SDK + J-Link |
 | Want both Arduino + MicroPython flexibility| Use Adafruit UF2 bootloader, supports both|
 
+- learn to write over the bootloader, flash from scratch
+
+
+
 ## Stage 2b
 - Design model housing
