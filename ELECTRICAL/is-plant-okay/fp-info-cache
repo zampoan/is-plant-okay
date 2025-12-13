@@ -1,4 +1,4 @@
-25621771255253298
+25625302466475761
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102648,12 +102648,26 @@ DS3234S-T&R
 20
 20
 is-plant-okay-foot
+BAT_BAT-HLD-003-SMT
+
+
+0
+3
+3
+is-plant-okay-foot
 BQ7791504PW
 
 
 0
 24
 24
+is-plant-okay-foot
+CONN11_PPPN111_SUL
+
+PPTC111LFBN-RC 
+0
+11
+11
 is-plant-okay-foot
 QFN50P350X350X100-17N
 
