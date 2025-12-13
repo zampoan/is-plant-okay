@@ -649,6 +649,10 @@
     [
       "67cc056f-c5be-4963-a238-c27ae3faab2e",
       "USB_C_3.3V"
+    ],
+    [
+      "8bf9bca6-f39d-47ed-80ea-99ec258c6971",
+      "MCP73871"
     ]
   ],
   "text_variables": {}
