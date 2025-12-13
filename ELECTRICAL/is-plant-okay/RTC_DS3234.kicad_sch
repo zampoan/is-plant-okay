@@ -967,10 +967,6 @@
 		(uuid "02f59f2d-3d81-4f3c-8bf1-6f3bb719a04e")
 	)
 	(no_connect
-		(at 124.46 87.63)
-		(uuid "2fd0c52e-8ceb-4afe-b76d-b5906cb981be")
-	)
-	(no_connect
 		(at 124.46 80.01)
 		(uuid "baa56af0-e9ca-40f3-8c4d-534cf96caa87")
 	)
@@ -1060,6 +1056,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90071e1-7a20-43f5-8def-ede48bfebc64")
+	)
+	(wire
+		(pts
 			(xy 175.26 85.09) (xy 200.66 85.09)
 		)
 		(stroke
@@ -1077,6 +1083,17 @@
 			(type default)
 		)
 		(uuid "ea62d62f-5a92-48bd-9ea5-c0ebecde8a1e")
+	)
+	(hierarchical_label "RTC_RST"
+		(shape input)
+		(at 106.68 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d31d4ff-ae30-48d8-9065-ce8ff52e3e92")
 	)
 	(hierarchical_label "RTC_CS"
 		(shape input)

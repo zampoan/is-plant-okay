@@ -755,6 +755,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8affee-b51e-4165-936d-5d5dc1303904")
+	)
+	(wire
+		(pts
 			(xy 172.72 118.11) (xy 172.72 120.65)
 		)
 		(stroke
@@ -762,6 +772,16 @@
 			(type default)
 		)
 		(uuid "0bd648c8-71de-4336-b9a0-76fa0262549b")
+	)
+	(wire
+		(pts
+			(xy 113.03 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c96263-cc70-4a57-89d9-e4dded94b86d")
 	)
 	(wire
 		(pts
@@ -795,6 +815,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 74.93) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48fd4b0-a06f-4495-8860-cb013fe81253")
+	)
+	(wire
+		(pts
 			(xy 168.91 118.11) (xy 172.72 118.11)
 		)
 		(stroke
@@ -822,6 +852,60 @@
 			(type default)
 		)
 		(uuid "bc35b5e4-b65d-4345-8481-40d1ec1613f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 77.47) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2450438-fdd2-497e-a140-911536a544cb")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 113.03 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15b1fa67-b06a-4d10-a6d6-9c04cea0dfd7")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 113.03 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "376e2ec0-6e74-4ad1-8bb9-925c9c73472a")
+	)
+	(hierarchical_label "LORA_CS"
+		(shape input)
+		(at 113.03 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcfc383f-b4dc-43de-a941-86dac1d986fd")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 113.03 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2a98e35-7bb2-491b-a119-fb72864c4af4")
 	)
 	(symbol
 		(lib_id "is-plant-okay-lib:SX1276IMLTRT")
