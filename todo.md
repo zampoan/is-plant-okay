@@ -7,6 +7,14 @@
 - Build pipeline?
 ## Stage 2a
 - Make Rev 1 of PCB
+Complete schematics for the following:
+    - MCU
+    - ~~DISPLAY_TFT~~
+    - ~~RTC_DS3234~~
+    - ~~CAMERA~~    
+    - ~~LoRA~~
+    - ~~USB_C~~
+    - ~~MCP78371~~
 
 Find out if below is possible:
 | Goal | Best Option | 
@@ -17,6 +25,7 @@ Find out if below is possible:
 | Want both Arduino + MicroPython flexibility| Use Adafruit UF2 bootloader, supports both|
 
 - learn to write over the bootloader, flash from scratch
+
 
 
 
