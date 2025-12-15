@@ -1549,8 +1549,8 @@
 		)
 	)
 	(rectangle
-		(start 83.82 22.86)
-		(end 132.08 60.96)
+		(start 53.34 16.51)
+		(end 101.6 54.61)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1561,7 +1561,7 @@
 		(uuid 191891ad-cc49-411e-a6c7-dddfe6a44d2c)
 	)
 	(rectangle
-		(start 161.29 22.86)
+		(start 161.29 20.32)
 		(end 217.17 60.96)
 		(stroke
 			(width 0)
@@ -1593,6 +1593,26 @@
 			)
 		)
 		(uuid "121f9fd8-5923-4941-a232-2d79b906d439")
+	)
+	(text "LED Status"
+		(exclude_from_sim no)
+		(at 188.214 23.114 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "1fc543af-b357-4448-b16c-0f4b972ca58c")
+	)
+	(text "Power IN"
+		(exclude_from_sim no)
+		(at 77.216 19.05 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "39ea2235-7893-4d05-8a81-1c38caa14dff")
 	)
 	(junction
 		(at 125.73 109.22)
@@ -1643,7 +1663,7 @@
 		(uuid "a37ee1e6-9ec4-4c2a-ab08-de24c8816fe4")
 	)
 	(junction
-		(at 107.95 35.56)
+		(at 77.47 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1de863b-b63a-4b7e-bf83-78d6b9afd514")
@@ -1886,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 35.56) (xy 118.11 35.56)
+			(xy 77.47 29.21) (xy 87.63 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 35.56) (xy 107.95 36.83)
+			(xy 77.47 29.21) (xy 77.47 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 45.72) (xy 107.95 44.45)
+			(xy 77.47 39.37) (xy 77.47 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 35.56) (xy 107.95 35.56)
+			(xy 72.39 29.21) (xy 77.47 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2405,7 +2425,7 @@
 		(uuid "5ab88ded-4916-4582-a2d9-66e2f07783dd")
 	)
 	(label "USB_OUT"
-		(at 118.11 35.56 180)
+		(at 87.63 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2478,7 +2498,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 102.87 35.56 180)
+		(at 72.39 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2489,7 +2509,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 40.64 0)
+		(at 77.47 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2498,7 +2518,7 @@
 		(fields_autoplaced yes)
 		(uuid "03efd6bb-dab2-4d1e-ad55-52e444cc5694")
 		(property "Reference" "C13"
-			(at 111.76 39.3699 0)
+			(at 81.28 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2527,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 111.76 41.9099 0)
+			(at 81.28 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.9152 44.45 0)
+			(at 78.4352 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 40.64 0)
+			(at 77.47 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2554,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 40.64 0)
+			(at 77.47 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2893,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "432c7ce9-3a73-431a-9cc8-9776b2c27a20")
 		(property "Reference" "U7"
 			(at 147.32 60.96 0)
@@ -2884,7 +2903,7 @@
 			)
 		)
 		(property "Value" "MCP73871-2CCI_ML"
-			(at 147.32 63.5 0)
+			(at 146.812 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4324,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 45.72 0)
+		(at 77.47 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4314,7 +4333,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5d7595a-45d2-46d8-a17c-42b087e70901")
 		(property "Reference" "#PWR043"
-			(at 107.95 52.07 0)
+			(at 77.47 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4342,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 50.8 0)
+			(at 77.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 45.72 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 45.72 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 45.72 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

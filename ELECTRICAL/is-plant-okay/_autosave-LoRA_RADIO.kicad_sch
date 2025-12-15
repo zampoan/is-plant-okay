@@ -549,7 +549,7 @@
 		(uuid "13040a32-6600-484c-a438-e6874209f875")
 	)
 	(hierarchical_label "3.3V"
-		(shape output)
+		(shape input)
 		(at 118.11 87.63 180)
 		(effects
 			(font
