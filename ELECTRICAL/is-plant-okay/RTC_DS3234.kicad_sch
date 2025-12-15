@@ -1117,7 +1117,7 @@
 		)
 		(uuid "b8217fe0-dbb7-4f27-bf09-2d309919be7f")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "RTC_MISO"
 		(shape input)
 		(at 185.42 77.47 0)
 		(effects
@@ -1128,7 +1128,7 @@
 		)
 		(uuid "c0e1cb97-8a77-4cf2-bd8c-97edd35146aa")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "RTC_MOSI"
 		(shape input)
 		(at 185.42 82.55 0)
 		(effects
@@ -1139,7 +1139,7 @@
 		)
 		(uuid "c149318e-5b66-42d9-b5aa-934606f84bd8")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "RTC_SCLK"
 		(shape input)
 		(at 185.42 74.93 0)
 		(effects

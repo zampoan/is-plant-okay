@@ -1601,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 134.62 83.82)
+			(xy 87.63 83.82) (xy 134.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1642,7 @@
 		)
 		(uuid "32e45d21-be00-4824-86c8-156cb906a6c6")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "TFT_SCLK"
 		(shape input)
 		(at 118.11 86.36 180)
 		(effects
@@ -1675,7 +1675,7 @@
 		)
 		(uuid "a76a27bd-50a7-4828-b942-4c47079539b2")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "TFT_MISO"
 		(shape input)
 		(at 118.11 88.9 180)
 		(effects
@@ -1686,7 +1686,7 @@
 		)
 		(uuid "ddbf50a2-54f1-4a85-90c7-7e07b17d29fc")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "TFT_MOSI"
 		(shape input)
 		(at 118.11 91.44 180)
 		(effects
@@ -1836,7 +1836,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 83.82 0)
+		(at 87.63 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1845,7 +1845,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc11a86b-ed51-449f-bbfb-2f6117e143db")
 		(property "Reference" "#PWR030"
-			(at 109.22 90.17 0)
+			(at 87.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 88.9 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 83.82 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 83.82 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 83.82 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

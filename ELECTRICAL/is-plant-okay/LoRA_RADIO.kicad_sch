@@ -549,7 +549,7 @@
 		(uuid "13040a32-6600-484c-a438-e6874209f875")
 	)
 	(hierarchical_label "3.3V"
-		(shape output)
+		(shape input)
 		(at 118.11 87.63 180)
 		(effects
 			(font
@@ -559,7 +559,7 @@
 		)
 		(uuid "1815970c-94b3-4963-9c22-63e358cce8b7")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "LORA_SCLK"
 		(shape input)
 		(at 113.03 77.47 180)
 		(effects
@@ -570,7 +570,7 @@
 		)
 		(uuid "50210bc4-ce88-4b45-9cb4-30e96c530caf")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "LORA_MISO"
 		(shape output)
 		(at 113.03 72.39 180)
 		(effects
@@ -603,7 +603,7 @@
 		)
 		(uuid "c2aba1b6-d546-48a2-bbce-7576ee3b1423")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "LORA_MOSI"
 		(shape input)
 		(at 113.03 74.93 180)
 		(effects

@@ -1130,7 +1130,7 @@
 		)
 		(uuid "f56075f5-96e1-42ae-9b9b-f0ef54989547")
 	)
-	(hierarchical_label "D0"
+	(hierarchical_label "CAM_D0"
 		(shape input)
 		(at 173.99 107.95 0)
 		(effects
@@ -1174,7 +1174,7 @@
 		)
 		(uuid "305b4d91-35f3-406e-8832-15bbebf27c9a")
 	)
-	(hierarchical_label "D6"
+	(hierarchical_label "CAM_D6"
 		(shape input)
 		(at 173.99 100.33 0)
 		(effects
@@ -1207,7 +1207,7 @@
 		)
 		(uuid "64aca1a4-2235-4d75-b932-0bb5a62a90ea")
 	)
-	(hierarchical_label "D3"
+	(hierarchical_label "CAM_D3"
 		(shape input)
 		(at 123.19 105.41 180)
 		(effects
@@ -1218,7 +1218,7 @@
 		)
 		(uuid "79123d11-29bb-4def-9785-5bbe40319fac")
 	)
-	(hierarchical_label "D5"
+	(hierarchical_label "CAM_D5"
 		(shape input)
 		(at 123.19 102.87 180)
 		(effects
@@ -1229,7 +1229,7 @@
 		)
 		(uuid "7de0ceea-f8db-41a4-9969-086de9b1e72f")
 	)
-	(hierarchical_label "D7"
+	(hierarchical_label "CAM_D7"
 		(shape input)
 		(at 123.19 100.33 180)
 		(effects
@@ -1240,7 +1240,7 @@
 		)
 		(uuid "80852914-0d4c-4294-8c7f-3f359e585f3a")
 	)
-	(hierarchical_label "D1"
+	(hierarchical_label "CAM_D1"
 		(shape input)
 		(at 123.19 107.95 180)
 		(effects
@@ -1262,7 +1262,7 @@
 		)
 		(uuid "90b4801f-9f08-409d-b385-fe175e2904d2")
 	)
-	(hierarchical_label "D4"
+	(hierarchical_label "CAM_D4"
 		(shape input)
 		(at 173.99 102.87 0)
 		(effects
@@ -1273,7 +1273,7 @@
 		)
 		(uuid "98e0675a-f0c1-44f8-86eb-8193e53486a8")
 	)
-	(hierarchical_label "D2"
+	(hierarchical_label "CAM_D2"
 		(shape input)
 		(at 173.99 105.41 0)
 		(effects
