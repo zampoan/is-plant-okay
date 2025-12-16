@@ -626,7 +626,7 @@
 		(uuid "dcfc383f-b4dc-43de-a941-86dac1d986fd")
 	)
 	(hierarchical_label "LORA_RST"
-		(shape input)
+		(shape output)
 		(at 113.03 80.01 180)
 		(effects
 			(font

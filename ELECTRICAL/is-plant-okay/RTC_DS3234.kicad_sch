@@ -1085,7 +1085,7 @@
 		(uuid "ea62d62f-5a92-48bd-9ea5-c0ebecde8a1e")
 	)
 	(hierarchical_label "RTC_RST"
-		(shape input)
+		(shape output)
 		(at 106.68 87.63 180)
 		(effects
 			(font
@@ -1118,7 +1118,7 @@
 		(uuid "b8217fe0-dbb7-4f27-bf09-2d309919be7f")
 	)
 	(hierarchical_label "RTC_MISO"
-		(shape input)
+		(shape output)
 		(at 185.42 77.47 0)
 		(effects
 			(font

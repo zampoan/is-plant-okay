@@ -2540,7 +2540,7 @@
 		(uuid "5232f0a3-92c1-4f0c-87c0-a3fec5e4596e")
 	)
 	(hierarchical_label "DATA_NEG"
-		(shape input)
+		(shape output)
 		(at 118.11 87.63 180)
 		(effects
 			(font
@@ -2551,7 +2551,7 @@
 		(uuid "7c76a8d8-376b-4dde-9a91-68a2b4c871df")
 	)
 	(hierarchical_label "DATA_POS"
-		(shape input)
+		(shape output)
 		(at 118.11 82.55 180)
 		(effects
 			(font
