@@ -4101,42 +4101,6 @@
 				)
 			)
 			(pin output line
-				(at 17.78 20.32 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 17.78 180)
-				(length 5.08)
-				(name "OUT__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
 				(at 17.78 15.24 180)
 				(length 5.08)
 				(name "STAT1/*LBO"
@@ -4201,6 +4165,44 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCP73871-2CCI_ML_1_0"
+			(pin passive line
+				(at 17.78 20.32 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 17.78 180)
+				(length 5.08)
+				(name "OUT__1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9244,7 +9246,34 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TSW-104-07-F-D:SAMTEC_TSW-104-07-F-D"
+		(property "Footprint" "is-plant-okay-foot:SAMTEC_TSW-104-07-F-D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9254,25 +9283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec"
+		(property "PACKAGE" "thru-hole"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9282,70 +9293,19 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "TSW - Samtec 2.54mm Pin Header 10.92mm Overall Pin Length (07) - Fast Stock"
+		(property "TYPE" "~"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TSW-104-07-F-D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/TSW-104-07-F-D/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(symbol "TSW-104-07-F-D_0_0"
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 7.62)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
