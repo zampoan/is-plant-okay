@@ -2917,6 +2917,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 118.11 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a87b8c9-babb-4659-b734-6c4c4af13334")
+		(property "Reference" "R3"
+			(at 120.65 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 120.65 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "is-plant-okay-foot:RC0805FR-7W10KL"
+			(at 116.332 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/4W 0805"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PART #" "RC0805FR-7W10KL"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0805"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9665e2-5b5d-41df-89e0-2d128032fd8a")
+		)
+		(pin "2"
+			(uuid "92a9855f-8555-46fd-9806-c92c1a46c591")
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/67cc056f-c5be-4963-a238-c27ae3faab2e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 127 125.73 270)
 		(unit 1)
@@ -3381,6 +3478,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 91.44 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0736355-c011-49bf-9318-4e2dabcd7313")
+		(property "Reference" "R2"
+			(at 93.98 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 93.98 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "is-plant-okay-foot:RC0805JR-075K1L"
+			(at 93.218 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 5% 1/8W 0805"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PART #" "RC0805JR-075K1L"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0805"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe026f4-7526-4b4d-aa16-bb49bb1b3569")
+		)
+		(pin "2"
+			(uuid "42029e84-ef72-4490-829b-c788ab5260e0")
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/67cc056f-c5be-4963-a238-c27ae3faab2e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 99.06 0)
 		(unit 1)
@@ -3441,76 +3635,6 @@
 			(project "is-plant-okay"
 				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/67cc056f-c5be-4963-a238-c27ae3faab2e"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7b3a05b-647a-464b-a79b-f4795d4019ea")
-		(property "Reference" "R13"
-			(at 93.98 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 93.98 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.218 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db760fcf-cb4a-4258-b79d-567da6d1dac3")
-		)
-		(pin "2"
-			(uuid "0eb43775-b158-4065-ba0d-d6fc2ce93f94")
-		)
-		(instances
-			(project "is-plant-okay"
-				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/67cc056f-c5be-4963-a238-c27ae3faab2e"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3584,76 +3708,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdf05a42-eddb-4c19-b994-474c9030eb37")
-		(property "Reference" "R12"
-			(at 120.65 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 120.65 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.332 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3e113dd-5921-476e-bfe8-75ca29e38fda")
-		)
-		(pin "2"
-			(uuid "7ec701de-92b7-4a38-84fa-5e518ea5565f")
-		)
-		(instances
-			(project ""
-				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/67cc056f-c5be-4963-a238-c27ae3faab2e"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 81.28 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3661,8 +3715,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e13897c1-1e00-4a38-abb0-2980f1d8bdfd")
-		(property "Reference" "R14"
+		(uuid "d62f09ef-5bfe-4a8f-8a71-8e97cf33d4dd")
+		(property "Reference" "R1"
 			(at 83.82 82.5499 0)
 			(effects
 				(font
@@ -3680,7 +3734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "is-plant-okay-foot:RC0805JR-075K1L"
 			(at 83.058 83.82 90)
 			(effects
 				(font
@@ -3689,7 +3743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -3698,7 +3752,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 5.1K OHM 5% 1/8W 0805"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PART #" "RC0805JR-075K1L"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0805"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -3708,15 +3789,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc583ba1-4750-4b77-9b43-6437d607cf13")
+			(uuid "77e89d0e-c044-4224-b01a-54e142ea4e0d")
 		)
 		(pin "2"
-			(uuid "f406f716-de53-4b58-ab58-6c82f6c1ff59")
+			(uuid "bd3a17df-1492-48e0-baa9-b24eec4dc30f")
 		)
 		(instances
 			(project "is-plant-okay"
 				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/67cc056f-c5be-4963-a238-c27ae3faab2e"
-					(reference "R14")
+					(reference "R1")
 					(unit 1)
 				)
 			)
