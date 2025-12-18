@@ -1,0 +1,234 @@
+(footprint "150120GS75000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 1206, SMT, 2pins<Br>3.2x1.6x0.68mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.8764 0)
+		(layer "F.SilkS")
+		(uuid "b0286a1b-c857-4321-bdea-ea1f0cae8bf4")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "150120GS75000"
+		(at 0 1.7936 0)
+		(layer "F.Fab")
+		(uuid "cfd01336-164a-431d-9d78-bc64ae93508b")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9e12fb9-fc98-4cbd-92be-fcf47c99f787")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94da27c3-d684-4b8c-b260-7ff8ff54cc7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0.9)
+		(end 0.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75fdf5ba-0226-4463-b430-14f72a78ca4f")
+	)
+	(fp_line
+		(start -0.4 -0.9)
+		(end 0.5 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ba27a9e-988e-4048-a6b5-4743f0fcb80f")
+	)
+	(fp_line
+		(start -0.33 0)
+		(end 0.21 -0.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5becb9b0-30dd-4a27-a60b-2c6ac7bd7e63")
+	)
+	(fp_line
+		(start 0.21 -0.34)
+		(end 0.21 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b03625cd-c4d2-4dee-944a-75fd5ce275b6")
+	)
+	(fp_line
+		(start 0.21 0.35)
+		(end -0.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bf5b9bd-40e2-4e92-bb65-81db39a0b374")
+	)
+	(fp_poly
+		(pts
+			(xy -2.4 -1.1) (xy 2.4 -1.1) (xy 2.4 1.1) (xy -2.4 1.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "16e43f59-3e24-4bb1-aaec-3088fb200ea6")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cf21dcf-4194-4ae7-90dc-15503c14c47b")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4854d63c-5632-4271-a48d-e912e1160260")
+	)
+	(fp_line
+		(start -0.33 0)
+		(end 0.21 -0.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "451c4d06-2c9d-41be-a05d-4493b01c98e9")
+	)
+	(fp_line
+		(start 0.21 -0.34)
+		(end 0.21 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81c9de66-0d19-4c0d-88ab-bfdd479bc688")
+	)
+	(fp_line
+		(start 0.21 0.35)
+		(end -0.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4254ee34-6cd3-4b1a-9616-17227f9a9185")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6abe7301-4587-4027-b78f-bd888e5eb04d")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2c7e93c-c309-4d54-8aba-fde1ea5e1cc5")
+	)
+	(fp_text user "+"
+		(at 2.6 0.3 0)
+		(layer "F.SilkS")
+		(uuid "92838bc7-1964-48e6-9b3c-f5649c38bb42")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 2.6 0.3 0)
+		(layer "F.Fab")
+		(uuid "663a5fd7-e81a-4abf-b443-fa7fa4523963")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f686b7c7-3d4e-40e4-83e3-ec51e8ea83ff")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d4c80400-467a-45aa-9188-8d055a60d46f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KICAD_PROJECT_LIBRARY/150120GS75000_/WL-SMCW_1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

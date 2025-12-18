@@ -2026,16 +2026,16 @@
 		(uuid "667566e0-3fcb-45d2-876e-d5f51067d119")
 	)
 	(junction
-		(at 118.11 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67b0f6d1-2a34-4112-96a6-f56e7b2f89aa")
-	)
-	(junction
 		(at 127 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c665bce-4cdf-4af5-a235-95e0d0fee0ce")
+	)
+	(junction
+		(at 114.3 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4f6d64-fb88-444d-b6b7-c86d22fbd90c")
 	)
 	(junction
 		(at 121.92 105.41)
@@ -2263,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 118.11 111.76)
+			(xy 114.3 107.95) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 118.11 107.95)
+			(xy 99.06 107.95) (xy 114.3 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2393,23 +2393,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 118.11 127)
+			(xy 114.3 119.38) (xy 114.3 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6755c08-ad00-4089-864e-610a7acb17c7")
-	)
-	(wire
-		(pts
-			(xy 118.11 107.95) (xy 121.92 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b81f7f93-4159-48d0-a2e4-85e412f34f46")
 	)
 	(wire
 		(pts
@@ -2550,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "eb096625-810c-46d6-b2d9-80f146b24d22")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8e912f-dd0d-4177-9278-7f18ea472982")
 	)
 	(wire
 		(pts
@@ -2865,7 +2865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4n7 1KV"
+		(property "Value" "4.7nF"
 			(at 102.87 116.8399 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "is-plant-okay-foot:CAPC1005X55N"
 			(at 100.0252 119.38 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 99.06 115.57 0)
 			(effects
 				(font
@@ -2892,7 +2892,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PART #" "CL05B104KO5NNNC"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 99.06 115.57 0)
 			(effects
 				(font
@@ -2918,7 +2954,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 115.57 0)
+		(at 114.3 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2927,7 +2963,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a87b8c9-babb-4659-b734-6c4c4af13334")
 		(property "Reference" "R3"
-			(at 120.65 114.2999 0)
+			(at 116.84 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +2972,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 120.65 116.8399 0)
+			(at 116.84 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +2981,7 @@
 			)
 		)
 		(property "Footprint" "is-plant-okay-foot:RC0805FR-7W10KL"
-			(at 116.332 115.57 90)
+			(at 112.522 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" "~https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 118.11 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2999,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/4W 0805"
-			(at 118.11 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3008,7 @@
 			)
 		)
 		(property "MFG PART #" "RC0805FR-7W10KL"
-			(at 118.11 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +3017,7 @@
 			)
 		)
 		(property "TYPE" "SMD"
-			(at 118.11 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3026,7 @@
 			)
 		)
 		(property "PACKAGE" "0805"
-			(at 118.11 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 127 0)
+		(at 114.3 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3422,7 +3458,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae27dc04-da3a-4fcb-98a6-645764b822d5")
 		(property "Reference" "#PWR033"
-			(at 118.11 133.35 0)
+			(at 114.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 132.08 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 127 0)
+			(at 114.3 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 127 0)
+			(at 114.3 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 127 0)
+			(at 114.3 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

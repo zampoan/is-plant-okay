@@ -1,4 +1,4 @@
-26340983569010284
+26355111470591127
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104545,6 +104545,13 @@ DS3234S-T&R
 20
 20
 is-plant-okay-foot
+150120GS75000
+<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 1206, SMT, 2pins<Br>3.2x1.6x0.68mm(LXWXH)
+
+0
+2
+2
+is-plant-okay-foot
 AMPHENOL_10129381-918001BLF
 
 
@@ -104572,6 +104579,20 @@ BQ7791504PW
 0
 24
 24
+is-plant-okay-foot
+CAPC1005X55N
+
+
+0
+2
+2
+is-plant-okay-foot
+CAPC3216X180N
+
+
+0
+2
+2
 is-plant-okay-foot
 CONN11_PPPN111_SUL
 
@@ -104608,6 +104629,34 @@ QFN65P600X600X100-29N
 29
 29
 is-plant-okay-foot
+RC0805FR-7W10KL
+
+
+0
+2
+2
+is-plant-okay-foot
+RC0805JR-075K1L
+
+
+0
+2
+2
+is-plant-okay-foot
+RESC2012X65N
+
+
+0
+2
+2
+is-plant-okay-foot
+RES_ZOR25_6P3X2P3_YAG
+
+ZOR-25-B-52-0R 
+0
+2
+2
+is-plant-okay-foot
 SAMESKY_UJ20-C-H-G-SMT-5-P16-TR
 
 
@@ -104628,6 +104677,13 @@ SOT95P280X145-6N
 0
 6
 6
+is-plant-okay-foot
+SW_TS04-66-55-BK-260-SMT
+
+
+0
+4
+4
 is-plant-okay-foot
 TMLF-4_MCH
 

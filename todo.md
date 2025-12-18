@@ -16,6 +16,8 @@ Complete schematics for the following:
     - ~~USB_C~~
     - ~~MCP78371~~
 
+- Check if GPIO is default High impedance from the registers
+
 Find out if below is possible:
 | Goal | Best Option | 
 | :------: | :---: | 
