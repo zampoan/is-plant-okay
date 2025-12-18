@@ -5,6 +5,113 @@
 	(uuid "a85e8c36-2f15-437e-bdc9-31bcb27bd701")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "is-plant-okay-lib:PPTC111LFBN-RC"
 			(pin_names
 				(offset 0.254)
@@ -1505,19 +1612,29 @@
 		)
 		(uuid "7fcc7128-1df6-4ec3-ab2b-4bc9dba45785")
 	)
+	(junction
+		(at 120.65 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f4b652c-5566-42fb-b671-effca8fe8ccd")
+	)
 	(no_connect
 		(at 134.62 81.28)
 		(uuid "73386d13-7d1f-42d8-bf35-0b5e344ae431")
 	)
+	(no_connect
+		(at 134.62 96.52)
+		(uuid "99e3bdd7-0eeb-4ba8-9260-636c3223bbba")
+	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 134.62 96.52)
+			(xy 120.65 78.74) (xy 134.62 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17f20b7c-a3cb-4e70-89fa-59da6a8aa83c")
+		(uuid "094c2807-9281-4840-a4cb-50a60f9b7dae")
 	)
 	(wire
 		(pts
@@ -1571,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 134.62 78.74)
+			(xy 118.11 78.74) (xy 120.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1608,17 +1725,6 @@
 			(type default)
 		)
 		(uuid "fcaf0fab-0521-4a28-8689-0694dec8f348")
-	)
-	(hierarchical_label "TFT_RST"
-		(shape input)
-		(at 118.11 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "04231456-b590-4dbf-a907-ad2c581af581")
 	)
 	(hierarchical_label "TFT_CS"
 		(shape input)
@@ -1707,6 +1813,73 @@
 			(justify right)
 		)
 		(uuid "fe0ffd55-94e4-4657-ada7-70a5c2a707e5")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a09f6d6-5ebd-4c2b-b174-6af0ef7ce033")
+		(property "Reference" "TP3"
+			(at 123.19 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TFT_3.3V_TP"
+			(at 123.19 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df7d92cd-d04e-4449-9d83-b6cdcff5fc6e")
+		)
+		(instances
+			(project "is-plant-okay"
+				(path "/ac51c2f9-77a4-4b89-b63f-6e0ba02b1e45/13d330f5-3cda-4311-90ba-9a1d771a2e1f"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "is-plant-okay-lib:PPTC111LFBN-RC")
